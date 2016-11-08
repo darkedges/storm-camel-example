@@ -65,13 +65,11 @@
 						<groupId>org.slf4j</groupId>
 						<artifactId>slf4j-api</artifactId>
 					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet</groupId>
+						<artifactId>servlet-api</artifactId>
+					</exclusion>
 				</exclusions>
-			</dependency>
-			<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>servlet-api</artifactId>
-				<version>3.0-alpha-1</version>
-				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.p7h</groupId>
